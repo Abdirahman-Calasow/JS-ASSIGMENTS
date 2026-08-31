@@ -6,3 +6,4 @@ if (score > 50) {
 else {
  console.log("your loss")
 }
+
