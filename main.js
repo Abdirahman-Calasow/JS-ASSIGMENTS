@@ -14,3 +14,12 @@
  }
 
 console.log(salam("calsow")) ;
+
+
+//  for of loop
+
+ let language = "javascript"
+
+  for (let l of language){
+   console.log(l)
+  }
