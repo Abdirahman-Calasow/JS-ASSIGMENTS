@@ -14,20 +14,8 @@ function fetchWithPromise(){
  
     fetchWithPromise()
      .then (mess=> console.log(mess))
+     .catch(err => console.log(err))
 
 
-// function fetchDataWithPromise() {
-//     return new Promise((resolve, reject) => {
-//         setTimeout(() => {
-//             const success = true; // You can change this to false to simulate a failure
-//             if (success) {
-//                 resolve("Data fetched successfully!");
-//             } else {
-//                 reject("Failed to fetch data.");
-//             }
-//         }, 2000);
-//     });
-// }
 
-// fetchDataWithPromise();
-//     .then(message => console.log(message))
+
